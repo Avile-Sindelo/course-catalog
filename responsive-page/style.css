@@ -19,4 +19,21 @@
 .course{
     height: 350px;
     width: 400px;
+    margin: 5% 30%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.course-information{
+    font-size: 150%;
+    color: crimson;
+    padding: 5%;
+}
+
+.course-details-btn{
+    margin: 0 0 0 40%;
+    background-color: cornflowerblue;
+    border-radius: 5%;
+    padding: 2% 5%;
+    border: none;
 }
