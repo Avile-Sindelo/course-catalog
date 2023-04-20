@@ -47,22 +47,6 @@ describe('Testing the Course Cost function', function(){
         assert.deepEqual(courseCost(courseCodeThree,dateThree), resultThree);
     });
 
-    it('it should ensure that different course have different prices', function(){
-        let validDate = '2023-05-21';
-        let courseCodeFour = 'p2';
-
-        let resultOne = {
-            status: 'success',
-            code: 'r1',
-            cost: 8990,
-            description: 'Intro to PHP course',
-            discount: 3596,
-            amountDue: 5394
-        }
-
-        assert.deepEqual(courseCost(courseCodeFour,validDate), resultOne);
-    });
-
     it('it should ensure that different courses have different prices', function(){
         let validDate = '2023-05-21';
         let courseCodeFour = 'p2';
