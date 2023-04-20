@@ -1,3 +1,18 @@
+/** ********************** PSUEDOCODE *******************************
+ * 
+ * DESCRIBE what is happening on the page
+ *  TEST what the function does when it receives an invalid date
+ * 
+ *  TEST if the function handles correct course codes as it should - correctly
+ * 
+ *  TEST if the same course has different prices depending on whether or not the date entered is in a discount window
+ * 
+ * TEST if two different courses have different course even on the same day - discount window or not
+ * 
+ * 
+ *  *********************** END OF PSUEDOCODE ***************************
+*/
+
 describe('Testing the Course Cost function', function(){
     it('it should ensure that invalid dates return a status of "Invalid day" ', function(){
         let courseCodeOne = 'p1';
