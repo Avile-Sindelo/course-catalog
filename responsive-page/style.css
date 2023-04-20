@@ -1,0 +1,22 @@
+#nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4%;
+}
+
+#welcome-text{
+    margin: 3%;
+    padding: 5%;
+    font-size: 200%;
+    color: lightseagreen;
+}
+
+#course-container{
+    margin: 5%;
+}
+
+.course{
+    height: 350px;
+    width: 400px;
+}
